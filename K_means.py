@@ -63,7 +63,7 @@ x3=[]
 y3=[]
 x4=[]
 y4=[]
-print dataAllocat
+print(dataAllocat)
 for i in range(shape(dataMat)[0]):
     if(dataAllocat[i,0]==0.0):
         x1.append(dataMat[i,0])
